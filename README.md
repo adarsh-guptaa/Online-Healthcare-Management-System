@@ -2,12 +2,11 @@
 
 A frontend-only healthcare platform with three roles (Admin, Doctor, Patient), built with **HTML5, CSS3, Vanilla JavaScript and localStorage**. No npm, no server, no database.
 
-> **Prototype disclaimer:** login is simulated and all healthcare data is fictional. Not for real medical use.
 
 ## How to run
 1. Copy the complete project folder and keep its structure unchanged.
 2. Double-click `index.html`.
-3. Log in with **any non-empty** User ID and password, or use the "Continue as ..." buttons.
+3. Log in with User ID and password, or use the "Continue as ..." buttons.
 
 ---
 
@@ -15,7 +14,7 @@ A frontend-only healthcare platform with three roles (Admin, Doctor, Patient), b
 
 ## Brick 0: The idea and the constraints
 Everything had to work by opening `index.html` directly (`file://`). That one rule shaped every decision:
-- Plain `<script>` tags in dependency order (no ES modules, no bundler).
+- Plain `<script>` tags in dependency order.
 - Relative paths only.
 - `localStorage` as the "database", so separate HTML pages can share data.
 
@@ -101,12 +100,11 @@ Each status change also creates a notification for the affected role.
 - Data lives in the browser, so there are no network requests.
 
 ## Honest limitations
-- Login and security are simulated; anyone can enter any role.
-- Data exists only in your own browser (clearing site data resets it).
+- Login and security.
 - Fictional data only; not suitable for real patients.
 - Possible upgrades: a real backend and database, real authentication, email/SMS reminders, and more automated testing.
 
-## Demo script
+## script
 1. Open `index.html` and click **Get Started**.
 2. Log in as **Patient** (any ID/password) and book an appointment.
 3. Logout, then log in as **Doctor**. Pick the same doctor under "Viewing as", and **Confirm**.
