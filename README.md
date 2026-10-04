@@ -1,3 +1,4 @@
+[Healthcare_System_Presentation.pdf](https://github.com/user-attachments/files/33017127/Healthcare_System_Presentation.pdf)
 # Online Healthcare Management System (CarePlus)
 
 A frontend-only healthcare platform with three roles (Admin, Doctor, Patient), built with **HTML5, CSS3, Vanilla JavaScript and localStorage**. No npm, no server, no database.
