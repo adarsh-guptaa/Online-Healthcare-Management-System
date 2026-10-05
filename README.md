@@ -88,7 +88,7 @@ Patient books -> localStorage -> Doctor confirms -> localStorage -> Patient sees
 Each status change also creates a notification for the affected role.
 
 ## Brick 12: Styling (`style.css`)
-- CSS variables for colours; a `[data-theme=dark]` block overrides them, and the choice is saved in localStorage.
+- CSS variables for colours; a `[data-theme=dark]` block overrides them, and the choice is saved in localStorage...
 - Grid and flexbox layouts; tables scroll horizontally on small screens.
 - Under 800px the sidebar becomes a slide-in drawer.
 - Small transitions: hover lift, fade-in, skeleton loading.
