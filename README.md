@@ -111,4 +111,4 @@ Each status change also creates a notification for the affected role.
 2. Log in as **Patient** (any ID/password) and book an appointment.
 3. Logout, then log in as **Doctor**. Pick the same doctor under "Viewing as", and **Confirm**.
 4. Log in as **Patient** again: the status is **Confirmed**.
-
+5. Log in as **Admin**: the same appointment appears under Appointments......
