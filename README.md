@@ -104,7 +104,7 @@ Each status change also creates a notification for the affected role.
 ## Honest review.
 - Login and security.
 - Real data only; suitable for real patients.
-- Possible upgrades: a more strong backend and database, strong authentication, email/SMS reminders, and more automated testing.
+
 
 ## script
 1. Open `index.html` and click **Get Started**.
