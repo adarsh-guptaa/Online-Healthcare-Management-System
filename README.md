@@ -4,7 +4,7 @@
 
 **Live website:** https://adarsh-guptaa.github.io/Online-Healthcare-Management-System/
 
-**Project presentation:** [Healthcare System Presentation](https://github.com/user-attachments/files/33017127/Healthcare_System_Presentation.pdf)
+**Project presentation:** [Healthcare_System_Presentation.pptx](https://github.com/user-attachments/files/33507979/Healthcare_System_Presentation.pptx)
 
 ---
 
